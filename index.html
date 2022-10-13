@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Main</title>
   </head>
   <body>
     <nav>
       <ul>
-        <a href="#"><li>Learning</li></a>
+        <a href="#Learning"><li>Learning</li></a>
         <a href="#"><li>Challanges</li></a>
         <a href="#"><li>Projects</li></a>
         <a href="#"><li id="ideas-last">Ideas</li></a>
@@ -18,11 +21,20 @@
     </nav>
 
     <main>
-        <section class="studies">
+        <section class="studies" id="Learning">
             <article class="studyContent">
-                <p>ParseInt</p>
+                <p>Data Types</p>
                 <div class="text">
-                    parseInt konwertuje stringa w wartosc liczbe w przypadku kiedy nasza wartosc liczobowa jest barana jako string
+                    <ul>
+                      <li><code>string</code></li>
+                      <li><code>number</code></li>
+                      <li><code>bigint</code></li>
+                      <li><code>boolean</code></li>
+                      <li><code>undefined</code></li>
+                      <li><code>Symbol</code></li>
+                      <li><code>null</code></li>
+                      
+                    </ul>
                 </div>
                 <div class="moreinfo">Click for more info</div>
             </article>
@@ -30,7 +42,16 @@
 
         <section class="studies">
             <article class="studyContent">
-                <p>cos napisane</p>
+                <p>Objects</p>
+              <div class="Description">
+                <p> An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. </p>
+                <code>let object_name = { 
+                 key_name : value,
+                  ...} 
+                </code>
+                
+              </div>
+              <div class="moreinfo-2">Click for more info</div>
             </article>
         </section>
 
@@ -45,6 +66,11 @@
                 <p>cos napisane</p>
             </article>
         </section>
+        <section class="studies">
+          <article class="studyContent">
+              <p>cos napisane</p>
+          </article>
+      </section>
     </main>
         
 
